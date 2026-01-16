@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 app.use(cors({
-  origin: ["http://localhost:5173","http://157.245.200.177:5173"],
+  origin: ["http://localhost:5173","http://139.59.252.90:5173"],
 }));
 
 app.use(express.json());
